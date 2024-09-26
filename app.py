@@ -7,7 +7,7 @@ st.image("weather_girl.gif")
 
 def get_weather_data(city):
       # Replace with your API key
-    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+   # url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
         response = requests.get(url)
