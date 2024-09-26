@@ -1,13 +1,13 @@
 import streamlit as st
 import requests
 
-#st.audio("Lofi hiphop.mp3")
+st.audio("Lofi hiphop.mp3")
 st.image("weather_girl.gif")
 
 
 def get_weather_data(city):
-     api_key = "65435937efabb5df8e149e97f0f08e7e" # Replace with your API key
-     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+    api_key = "65435937efabb5df8e149e97f0f08e7e"  # Replace with your API key
+    url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
     try:
         response = requests.get(url)
