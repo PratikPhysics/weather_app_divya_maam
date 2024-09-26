@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-#st.audio("Lofi hiphop.mp3")
+st.audio("Lofi hiphop.mp3")
 st.image("weather_girl.gif")
 
 
